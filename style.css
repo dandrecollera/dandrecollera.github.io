@@ -1,4 +1,10 @@
 /*@import url(//db.onlinewebfonts.com/c/af089c51d74ffa3c6a675fd6024b302b?family=Futura+Hv+BT);*/
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,100&family=Roboto&display=swap');
+
+@font-face{
+    font-family: FuturaHvBT;
+    src: url("fonts/bitstream_-_futura_hv_bt_heavy-webfont.woff");
+}
 
 *{
     margin: 0;
@@ -10,13 +16,31 @@ body, html{
     background-color: white;
 }
 
-.container-parallax{
-    height: 100%;
+.container-header{
+    padding-top: 20px;
+    padding-left: 52px;
 }
 
+.logo {
+    max-width:42px;
+    width: auto;
+    height: auto;
+}
+
+.navbar-container{
+    display: inline-block;
+    font-family: FuturaHvBT;
+    font-size: 14.3px;
+    letter-spacing: 2px;
+        
+}
+
+div a{
+    margin-left: 20px;
+}
 
 .parallax{
-    background-image: url("img/Artboard5.png");
+    background-image: url("img/webdesigndandre3.png");
 
     height: 100%;
 
