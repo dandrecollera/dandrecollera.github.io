@@ -25,6 +25,7 @@ body, html{
     max-width:42px;
     width: auto;
     height: auto;
+    margin-right: 20px;
 }
 
 .navbar-container{
@@ -32,18 +33,16 @@ body, html{
     font-family: FuturaHvBT;
     font-size: 14.3px;
     letter-spacing: 2px;
-        
 }
 
 div a{
     margin: 10px;
+    text-decoration: none;
 }
 
 .parallax{
     background-image: url("img/webdesigndandre3.png");
-
     height: 100%;
-
     background-attachment:fixed;
     background-position: center;
     background-repeat: no-repeat;
