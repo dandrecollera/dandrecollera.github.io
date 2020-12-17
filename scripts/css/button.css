@@ -9,7 +9,7 @@ a,a:visited,a:hover,a:active{
   transition:0.5s color ease;
 	text-decoration:none;
 	color:black;
-	font-size:14.3px;
+	font-size:17px;
 }
 a:hover{
 	color:black;
@@ -28,20 +28,20 @@ a.after:after{
   bottom:-0.25em;
 }
 a.before:before,a.after:after{
-  height:0.1rem;
+  height:0.2rem;
   width:0;
   background:black;
 }
 
 .square{
   position:relative;
-  font-size:14.3px;
+  font-size:17px;
   overflow:hidden;
   margin-right: 10px;
 }
 .square a{
   position:static;
-  font-size:14.3px;
+  font-size:17px;
 }
 .square:before,.square:after{
   content: "";
@@ -49,7 +49,7 @@ a.before:before,a.after:after{
   -webkit-backface-visibility:hidden;
           backface-visibility:hidden;
   position:absolute;
-  width:0.1rem;
+  width:0.2rem;
   height:0;
   background:black;
 }

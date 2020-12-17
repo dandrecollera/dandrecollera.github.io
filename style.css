@@ -1,4 +1,4 @@
-/*@import url(//db.onlinewebfonts.com/c/af089c51d74ffa3c6a675fd6024b302b?family=Futura+Hv+BT);*/
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,100&family=Roboto&display=swap');
 
 @font-face{
@@ -16,28 +16,63 @@ body, html{
     background-color: white;
 }
 
-.container-header{
-    padding-top: 20px;
-    padding-left: 52px;
-}
 
 .logo {
     max-width:42px;
     width: auto;
     height: auto;
-    margin-right: 20px;
+    padding-right: 10px;
 }
 
 .navbar-container{
     display: inline-block;
     font-family: FuturaHvBT;
-    font-size: 14.3px;
+    font-size: 16px;
     letter-spacing: 2px;
+    padding-bottom: 8px;
+
 }
 
 div a{
-    margin: 10px;
+    margin: 10px 5px;
     text-decoration: none;
+}
+
+.title{
+    padding-top: 7%;
+    line-height: 0.9;
+}
+
+.subtitle{
+    font-family: 'Piazzolla', serif;
+    font-size: 23px;
+    line-height: 1.2;
+}
+
+h1{
+    font-family: FuturaHvBT;
+    letter-spacing: 7px;
+    font-size: 50px;
+}
+
+.container-header{
+    padding: 20px 60px;
+}
+
+.image{
+    position: relative;
+}
+
+.sig{
+    max-width:1000px;
+    width: auto;
+    height: auto;
+    opacity: 0.3;
+}
+
+.text-title{
+    position: absolute; 
+    top: 180px; 
 }
 
 .parallax{
@@ -47,6 +82,7 @@ div a{
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
+    overflow: auto;
 }
 
 .shadow{
