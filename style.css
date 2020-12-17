@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,100&family=Roboto&display=swap');
 
 @font-face{
@@ -39,7 +39,7 @@ div a{
 }
 
 .title{
-    padding-top: 7%;
+    padding-top: 9.3%;
     line-height: 0.9;
 }
 
@@ -67,7 +67,7 @@ h1{
     max-width:1000px;
     width: auto;
     height: auto;
-    opacity: 0.3;
+    opacity: 0.2;
 }
 
 .text-title{
