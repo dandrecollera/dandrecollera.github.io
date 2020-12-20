@@ -21,7 +21,6 @@ body, html{
     background-color: white;
 }
 
-
 .logo {
     max-width:42px;
     width: auto;
@@ -48,7 +47,7 @@ body, html{
     line-height: 0.9;
 }
 
-.subtitle{
+.subtitle p{
     font-family: 'Piazzolla', serif;
     font-size: 23px;
     line-height: 1.2;
@@ -73,6 +72,7 @@ body, html{
     width: auto;
     height: auto;
     opacity: 0.2;
+    filter: blur(1.5px);
 }
 
 .text-title{
@@ -110,9 +110,16 @@ body, html{
 .profile h1{
     font-family: FuturaHvBT; 
     text-align: center;
-    margin-bottom: 32px;
+    margin-bottom: 3px;
     margin-top: 20px;
-    font-size: 24px;
+    font-size: 38px;
+}
+
+.profile .heads{
+    font-family: 'Piazzolla', serif;
+    text-align: center;
+    font-size: medium;
+    margin-bottom: 30px;
 }
 
 .photo{
@@ -133,7 +140,7 @@ p{
 .rows{
     display: flex;
     justify-content: center;
-    margin-bottom: 32px;
+    margin-bottom: 45px;
     align-items: flex-start;
 }
 
@@ -171,13 +178,24 @@ p{
 .skills h1{
     font-family: FuturaHvBT; 
     text-align: center;
-    margin-bottom: 32px;
+    margin-bottom: 3px;
     margin-top: 40px;
-    font-size: 24px;
+    font-size: 38px;
 }
 
-.skills p{
+
+.skills .heads{
+    font-family: 'Piazzolla', serif;
+    text-align: center;
     font-size: medium;
+    margin-bottom: 30px;
+}
+
+ul{
+    list-style-type: none;
+    font-size: medium;
+    font-family: 'Piazzolla', serif;
+    padding: 0px 2px;
 }
 
 .skills .rows{
@@ -191,5 +209,35 @@ p{
     margin: 0px 100px;
 }
 
+.skills h2{
+    width: 450px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 0.1px black solid;
+}
 
-/* test
+.skill-type{
+    display: inline-block;
+    width: 60%;
+}
+
+.score{
+    float: right;
+}
+
+.center{
+    text-align: center;
+}
+
+.score img{
+    max-width:10px;
+    width: auto;
+    height: auto;
+    margin: 0px 2px;
+}
+
+h4{
+    font-family: FuturaHvBt;
+    text-align: center;
+    margin-bottom: 15px;
+}
