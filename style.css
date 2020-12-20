@@ -253,6 +253,7 @@ h4{
     width: 18%;
     margin: 10px 50px;
     margin-bottom: 40px;
+    
 }
 
 .image-container img{
@@ -272,11 +273,15 @@ h4{
     transition: 0.2s ease;
     background-color: black;
     border-radius: 3px;
-    padding: 28% 0;
+    padding: 28% 6px;
 }
 
 .image-container:hover .overlay{
     opacity: 0.8;
+}
+
+.text{
+    font-size:12px;
 }
 
 .projectheader{
@@ -330,6 +335,18 @@ hr{
     color: black;
 }
 
+.button6 {
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 7px;
+}
+
+.button6:hover {
+    background-color: black;
+    color: white;
+}
+
 .inside-container{
     display: flex;
     flex-direction: column;
@@ -337,8 +354,96 @@ hr{
     align-items: center;
 }
 
-.arts{
-    width: 23%;
+.image-container2{
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.2);
+    position: relative;
+    width: 100%;
+    margin: 10px 10px;
+
+}
+
+.image-container2 .arts{
+    display: block;
+    width: 100%;
     height: auto;
-    margin: 5px;
+}
+
+.overlay2{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.2s ease;
+    background-color: black;
+    padding: 48% 10px;
+}
+
+.image-container2:hover .overlay2{
+    opacity: 0.8;
+}
+
+.image-container2 .text{
+    color: white;
+    text-align: center;
+}
+
+.profile2{
+    margin:auto;
+    margin-bottom: 60px;
+    color: white;
+}
+
+.profile2 h1{
+    font-family: FuturaHvBT; 
+    text-align: center;
+    margin-bottom: 3px;
+    margin-top: 20px;
+    font-size: 38px;
+}
+
+.profile2 .heads{
+    font-family: 'Piazzolla', serif;
+    text-align: center;
+    font-size: medium;
+    margin-bottom: 30px;
+}
+
+.linkz{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    color: white;
+    text-decoration: none;
+    font-family: 'Piazzolla', serif;
+}
+
+.socials{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    
+}
+
+
+.socials .fa {
+    padding: 20px;
+    font-size: 25px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 10px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 2px black solid;
+    transition-duration: 0.14s;
+    box-sizing: initial;
+    color: black;
+}
+  
+.fa:hover {
+    color: white;
+    background:black;
 }

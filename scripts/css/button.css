@@ -2,7 +2,7 @@
   display: inline-block;
 }
 
-a,a:visited,a:hover,a:active{
+.navbar-container a,.navbar-container a:visited,.navbar-container a:hover,.navbar-container a:active{
   -webkit-backface-visibility:hidden;
           backface-visibility:hidden;
 	position:relative;
@@ -11,39 +11,39 @@ a,a:visited,a:hover,a:active{
 	color:black;
 	font-size:17px;
 }
-a:hover{
+.navbar-container a:hover{
 	color:black;
 }
-a.before:before,a.after:after{
+.navbar-container a.before:before,.navbar-container a.after:after{
   content: "";
   transition:0.5s all ease;
   -webkit-backface-visibility:hidden;
           backface-visibility:hidden;
   position:absolute;
 }
-a.before:before{
+.navbar-container a.before:before{
   top:-0.25em;
 }
-a.after:after{
+.navbar-container a.after:after{
   bottom:-0.25em;
 }
-a.before:before,a.after:after{
+.navbar-container a.before:before,.navbar-container a.after:after{
   height:0.2rem;
   width:0;
   background:black;
 }
 
-.square{
+.navbar-container .square{
   position:relative;
   font-size:17px;
   overflow:hidden;
   margin-right: 10px;
 }
-.square a{
+.navbar-container .square a{
   position:static;
   font-size:17px;
 }
-.square:before,.square:after{
+.navbar-container .square:before,.navbar-container .square:after{
   content: "";
   transition:0.25s all ease;
   -webkit-backface-visibility:hidden;
@@ -53,34 +53,34 @@ a.before:before,a.after:after{
   height:0;
   background:black;
 }
-.square:before{
+.navbar-container .square:before{
   left:0;
   bottom:-0.2em;
 }
-.square.individual:before{
+.navbar-container .square.individual:before{
   transition-delay:0.6s;
 }
-.square:after{
+.navbar-container .square:after{
   right:0;
   top:-0.2em;
 }
-.square.individual:after{
+.navbar-container .square.individual:after{
   transition-delay:0.2s;
 }
-.square a:before{
+.navbar-container .square a:before{
   left:0;
   transition:0.25s all ease;
 }
-.square a:after{
+.navbar-container .square a:after{
   right:0;
   transition:0.25s all ease;
 }
-.square.individual a:after{
+.navbar-container .square.individual a:after{
   transition:0.25s all ease 0.4s;
 }
-.square:hover:before,.square:hover:after{
+.navbar-container .square:hover:before,.navbar-container .square:hover:after{
   height:calc(100% + 0.4em);
 }
-.square:hover a:before,.square:hover a:after{
+.navbar-container .square:hover a:before,.navbar-container .square:hover a:after{
   width:100%;
 }

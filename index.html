@@ -2,17 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="scripts/js/java.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="scripts/css/button.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Dandre Collera</title>
     <link rel="icon" type="image/png" href="img\iconlogo\favicon-96x96.png">
 </head>
 <body>
     <!-- Header Main -->
-    <div class="parallax">
+    <div class="parallax" id="top">
         <div class="container-header">
             <div class="navbar-container">
                 <img src="img/iconlogobl2/apple-icon.png" class="logo">
@@ -33,7 +34,7 @@
                 </div>
                 <div class="wrapper">
                     <span class="square">
-                        <a href="#profile" class="tenth before after">CONTACTS</a>
+                        <a href="#contacts" class="tenth before after">CONTACTS</a>
                     </span>
                 </div>  
             </div>
@@ -182,13 +183,13 @@
     <!-- PROJECTS -->
     <div class="shadow" id="projects">
         <div class="container-content">
-            <div class="profile">
+            <div class="profile2">
                 <h1>PROJECTS</h1>    
                 <p class="heads">And God saw every thing that he had made, and, behold, it was very good. <br>
                     Genesis 1:31
                 </p>
                 <h2 class="projectheader">PROGRAMMING</h2>
-                <p class="center">github.com/dandrecollera</p>
+                <a class="linkz" href="https://github.com/dandrecollera">github.com/dandrecollera</a>
                 <hr>
                 <div class="project-container">
                     <div class="image-container">
@@ -196,8 +197,8 @@
                         <div class="overlay">
                             <div class="inside-container">
                                 <p class="text">School Project created using Python and OpenCV.</p>
-                                <button class="button button5">SEE MORE</button>
-                            </div>
+                                    <button class="button button5">SEE MORE</button>
+                                </div>
                         </div>
                         <p class="prog-title">Face Recognition<br> Attendance System</p>
                     </div>
@@ -216,7 +217,7 @@
                         <div class="overlay">
                             <div class="inside-container">
                                 <p class="text">Personal Project for Discord Server. Discord Bot Assistant. Created using Python</p>
-                                <button class="button button5">SEE MORE</button>
+                                <a href="https://github.com/dandrecollera/azure-overseer"><button class="button button5">SEE MORE</button></a>
                             </div>
                         </div>
                         <p class="prog-title">Azure Overseer</p>
@@ -226,28 +227,109 @@
                         <div class="overlay">
                             <div class="inside-container">
                                 <p class="text">Personal Project for Discord Server. Discord Bot Pet. <br>Created using Python</p>
-                                <button class="button button5">SEE MORE</button>
+                                <a href="https://github.com/dandrecollera/snow-bot"><button class="button button5">SEE MORE</button></a>
                             </div>
                         </div>
                         <p class="prog-title">Snow Bot</p>
                     </div>
                 </div>
                 <h2 class="projectheader">GRAPHIC DESIGNING</h2>
-                <p class="center">behance.net/colleradandre</p>
+                <a class="linkz" href="https://www.behance.net/colleradandre">behance.net/colleradandre</a>
                 <hr>
                 <div class="project-container">
-                    <img src="img/designs/alwayskeshi.png" class="arts">
-                    <img src="img/designs/celestiacoded.png" class="arts">
-                    <img src="img/designs/colderthandecember.png" class="arts">
-                    <img src="img/designs/colderthandecember2.png" class="arts">
+                    <div class="image-container2">
+                        <img src="img/designs/alwayskeshi.png" class="arts">
+                        <div class="overlay2">
+                            <div class="inside-container2">
+                                <p class="text">Keshi - Always Album Design</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image-container2">
+                        <img src="img/designs/celestiacoded.png" class="arts">
+                        <div class="overlay2">
+                            <div class="inside-container2">
+                                <p class="text">Celestia Album Design</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image-container2">
+                        <img src="img/designs/colderthandecember.png" class="arts">
+                        <div class="overlay2">
+                            <div class="inside-container2">
+                                <p class="text">Colder than December Part 1</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image-container2">
+                        <img src="img/designs/colderthandecember2.png" class="arts">
+                        <div class="overlay2">
+                            <div class="inside-container2">
+                                <p class="text">Colder than December Part 2</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="project-container">
-                    <img src="img/designs/Exhausted.png" class="arts">
-                    <img src="img/designs/triggered.png" class="arts">
-                    <img src="img/designs/universe.png" class="arts">
+                    <div class="image-container2">
+                        <img src="img/designs/Exhausted.png" class="arts">
+                        <div class="overlay2">
+                            <div class="inside-container2">
+                                <p class="text">Exhausted</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image-container2">
+                        <img src="img/designs/triggered.png" class="arts">
+                        <div class="overlay2">
+                            <div class="inside-container2">
+                                <p class="text">Triggered</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image-container2">
+                        <img src="img/designs/universe.png" class="arts">
+                        <div class="overlay2">
+                            <div class="inside-container2">
+                                <p class="text">Universe</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <p class="center" style="font-family: FuturaHvBt;">Check my behance for more</p>
             </div>
         </div>
+    </div>
+    <!-- END PROJECTS -->
+    <div class="parallax2" id="contacts">
+        <div class="container-content">
+            <div class="skills">
+                <img src="img/iconlogobl2/android-icon-192x192.png" class="azure-small">
+                <h1>CONTACTS</h1>
+                <p class="heads">call thy name</p>
+                <p class="center">Follow, Add, or Check out my profiles!</p>
+                <div class="socials">
+                    <div class="1">
+                    <a href="https://www.facebook.com/xAzurine/" class="fa fa-facebook"></a>
+                    <a href="https://twitter.com/dmcollera" class="fa fa-twitter"></a>
+                    <a href="https://www.instagram.com/azurinee/" class="fa fa-instagram"></a>
+                    <a href="https://www.linkedin.com/in/dandrecollera/" class="fa fa-linkedin"></a>
+                    <a href="https://www.behance.net/colleradandre" class="fa fa-behance"></a>
+                    <a href="https://github.com/dandrecollera" class="fa fa-github"></a>
+                    </div>
+                    <div class="2">
+                        <p class="center">Send me an email at dandrecollera@gmail.com</p>
+                    </div>
+                    <div class="3">
+                        <a href="#top"><button class="button button6" >GO UP</button></a>
+                    </div>
+                </div> 
+                <img src="img/iconlogobl2/android-icon-192x192.png" class="azure-small">  
+            </div>
+        </div>
+    </div>
+    <div class="shadow">
+        <p style="text-align: center;color:white;padding-top:5px; padding-bottom: 5px;">azurine.</p>
     </div>
 </body>
 </html>
