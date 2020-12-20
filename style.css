@@ -241,3 +241,104 @@ h4{
     text-align: center;
     margin-bottom: 15px;
 }
+
+.project-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.image-container{
+    position: relative;
+    width: 18%;
+    margin: 10px 50px;
+    margin-bottom: 40px;
+}
+
+.image-container img{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 40;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.2s ease;
+    background-color: black;
+    border-radius: 3px;
+    padding: 28% 0;
+}
+
+.image-container:hover .overlay{
+    opacity: 0.8;
+}
+
+.projectheader{
+    text-align: center;
+    font-size: 26px;
+    
+}
+
+hr{
+    margin: auto;
+    width: 75%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.prog-title{
+    position: relative;
+    margin-top: 5px;
+    text-align: center;
+    font-family: FuturaHvBt;
+    z-index: 999;
+}
+
+.image-container .text{
+    color: white;
+    text-align: center;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 14px;
+    font-family: FuturaHvBt;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.button5 {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.button5:hover {
+    background-color: white;
+    color: black;
+}
+
+.inside-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.arts{
+    width: 23%;
+    height: auto;
+    margin: 5px;
+}
